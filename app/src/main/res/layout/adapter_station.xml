@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/adapter_station_imageview"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="8dp"
+            tools:src="@drawable/ic_baseline_directions_bike_24"></ImageView>
+        <TextView
+            android:id="@+id/adapter_station_tv"
+            tools:text="Nicolas Beque"
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </TextView>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

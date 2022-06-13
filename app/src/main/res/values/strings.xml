@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ProjetMobileStationVelib</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="offline_title">Hors Connexion</string>
+    <string name="offline_message">Impossible de synchroniser l\'API</string>
+    <string name="ok">OK</string>
+    <string name="synchro">Synchro</string>
+    <string name="favoris">Favoris</string>
+    <string name="home">Home</string>
+    <string name="delete">Delete</string>
+</resources>
